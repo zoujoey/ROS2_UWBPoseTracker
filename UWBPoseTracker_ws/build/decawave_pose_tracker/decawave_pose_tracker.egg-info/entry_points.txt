@@ -1,0 +1,9 @@
+[console_scripts]
+listener_pose_saver = decawave_pose_tracker.listener_pose_saver:main
+listener_pose_xy = decawave_pose_tracker.listener_pose_xy:main
+listener_pose_xyz = decawave_pose_tracker.listener_pose_xyz:main
+listener_pose_xz = decawave_pose_tracker.listener_pose_xz:main
+listener_pose_yz = decawave_pose_tracker.listener_pose_yz:main
+tag_dist_pub = decawave_pose_tracker.tag_dist_pub:main
+tag_dist_saver = decawave_pose_tracker.tag_dist_saver:main
+

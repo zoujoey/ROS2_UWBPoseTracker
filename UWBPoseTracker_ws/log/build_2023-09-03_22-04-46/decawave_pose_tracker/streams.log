@@ -1,0 +1,28 @@
+[0.368s] Invoking command in '/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/decawave_pose_tracker': PYTHONPATH=/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/prefix_override:/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/decawave_pose_tracker build --build-base /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build install --record /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/install.log --install-scripts $base/lib/decawave_pose_tracker --single-version-externally-managed
+[0.487s] /home/asrl/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.487s]   warnings.warn(
+[0.503s] running egg_info
+[0.503s] creating ../build/decawave_pose_tracker/decawave_pose_tracker.egg-info
+[0.504s] writing manifest file '../build/decawave_pose_tracker/decawave_pose_tracker.egg-info/SOURCES.txt'
+[0.505s] writing manifest file '../build/decawave_pose_tracker/decawave_pose_tracker.egg-info/SOURCES.txt'
+[0.505s] running build
+[0.505s] running build_py
+[0.505s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build
+[0.505s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build/lib
+[0.505s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build/lib/decawave_pose_tracker
+[0.505s] copying decawave_pose_tracker/__init__.py -> /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build/lib/decawave_pose_tracker
+[0.505s] running install
+[0.506s] running install_lib
+[0.506s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages/decawave_pose_tracker
+[0.506s] byte-compiling /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages/decawave_pose_tracker/__init__.py to __init__.cpython-38.pyc
+[0.506s] running install_data
+[0.507s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/ament_index
+[0.507s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/ament_index/resource_index
+[0.507s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/ament_index/resource_index/packages
+[0.507s] copying resource/decawave_pose_tracker -> /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/ament_index/resource_index/packages
+[0.507s] copying package.xml -> /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/decawave_pose_tracker
+[0.507s] running install_egg_info
+[0.508s] Copying ../build/decawave_pose_tracker/decawave_pose_tracker.egg-info to /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages/decawave_pose_tracker-0.0.0-py3.8.egg-info
+[0.508s] running install_scripts
+[0.519s] writing list of installed files to '/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/install.log'
+[0.532s] Invoked command in '/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/decawave_pose_tracker' returned '0': PYTHONPATH=/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/prefix_override:/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/decawave_pose_tracker build --build-base /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build install --record /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/install.log --install-scripts $base/lib/decawave_pose_tracker --single-version-externally-managed

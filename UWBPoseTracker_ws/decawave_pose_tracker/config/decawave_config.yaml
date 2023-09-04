@@ -1,0 +1,35 @@
+# config_file for the decawave position tracker and UWB device properties
+# Initial Takeoff 
+
+UWBtag:
+  ID: '9325' #ID of tag
+
+UWBlistener:
+  ID: 'D633' #ID of listener
+
+UWBanchor1:
+  ID: 'D633' #ID of anchor 1
+  px: 0.0 # X Coord of Anchor Position
+  py: 0.0 # Y Coord of Anchor Position
+  pz: -0.25 # Z Coord of Anchor Position
+
+UWBanchor2:
+  ID: '9620' #ID of anchor 2
+  px: 0.0 # X Coord of Anchor Position
+  py: 0.0 # Y Coord of Anchor Position
+  pz: -0.25 # Z Coord of Anchor Position
+
+UWBanchor3:
+  ID: '919B' #ID of anchor 3
+  px: 0.0 # X Coord of Anchor Position
+  py: 0.0 # Y Coord of Anchor Position
+  pz: -0.25 # Z Coord of Anchor Position
+
+UWBanchor4:
+  ID: 'CC2E' #ID of anchor 4
+  px: 0.0 # X Coord of Anchor Position
+  py: 0.0 # Y Coord of Anchor Position
+  pz: -0.25 # Z Coord of Anchor Position
+
+UWBanchor_dist:
+  ID: 'D633' #current anchor for anchor to tag distance

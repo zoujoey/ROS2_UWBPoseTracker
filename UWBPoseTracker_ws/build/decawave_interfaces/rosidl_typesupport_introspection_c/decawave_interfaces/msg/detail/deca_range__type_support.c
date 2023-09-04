@@ -1,0 +1,230 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+// with input from decawave_interfaces:msg/DecaRange.idl
+// generated code does not contain a copyright notice
+
+#include <stddef.h>
+#include "decawave_interfaces/msg/detail/deca_range__rosidl_typesupport_introspection_c.h"
+#include "decawave_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+#include "rosidl_typesupport_introspection_c/field_types.h"
+#include "rosidl_typesupport_introspection_c/identifier.h"
+#include "rosidl_typesupport_introspection_c/message_introspection.h"
+#include "decawave_interfaces/msg/detail/deca_range__functions.h"
+#include "decawave_interfaces/msg/detail/deca_range__struct.h"
+
+
+// Include directives for member types
+// Member `header`
+#include "std_msgs/msg/header.h"
+// Member `header`
+#include "std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h"
+// Member `tag_id`
+// Member `anch_id1`
+// Member `anch_id2`
+// Member `anch_id3`
+// Member `anch_id4`
+#include "rosidl_runtime_c/string_functions.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void DecaRange__rosidl_typesupport_introspection_c__DecaRange_init_function(
+  void * message_memory, enum rosidl_runtime_c__message_initialization _init)
+{
+  // TODO(karsten1987): initializers are not yet implemented for typesupport c
+  // see https://github.com/ros2/ros2/issues/397
+  (void) _init;
+  decawave_interfaces__msg__DecaRange__init(message_memory);
+}
+
+void DecaRange__rosidl_typesupport_introspection_c__DecaRange_fini_function(void * message_memory)
+{
+  decawave_interfaces__msg__DecaRange__fini(message_memory);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_member_array[10] = {
+  {
+    "header",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, header),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "tag_id",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, tag_id),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "anch_id1",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, anch_id1),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "range1",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, range1),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "anch_id2",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, anch_id2),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "range2",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, range2),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "anch_id3",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, anch_id3),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "range3",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, range3),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "anch_id4",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, anch_id4),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "range4",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(decawave_interfaces__msg__DecaRange, range4),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
+  }
+};
+
+static const rosidl_typesupport_introspection_c__MessageMembers DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_members = {
+  "decawave_interfaces__msg",  // message namespace
+  "DecaRange",  // message name
+  10,  // number of fields
+  sizeof(decawave_interfaces__msg__DecaRange),
+  DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_member_array,  // message members
+  DecaRange__rosidl_typesupport_introspection_c__DecaRange_init_function,  // function to initialize message memory (memory has to be allocated)
+  DecaRange__rosidl_typesupport_introspection_c__DecaRange_fini_function  // function to terminate message instance (will not free memory)
+};
+
+// this is not const since it must be initialized on first access
+// since C does not allow non-integral compile-time constants
+static rosidl_message_type_support_t DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_type_support_handle = {
+  0,
+  &DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_members,
+  get_message_typesupport_handle_function,
+};
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_decawave_interfaces
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, decawave_interfaces, msg, DecaRange)() {
+  DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Header)();
+  if (!DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_type_support_handle.typesupport_identifier) {
+    DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_type_support_handle.typesupport_identifier =
+      rosidl_typesupport_introspection_c__identifier;
+  }
+  return &DecaRange__rosidl_typesupport_introspection_c__DecaRange_message_type_support_handle;
+}
+#ifdef __cplusplus
+}
+#endif

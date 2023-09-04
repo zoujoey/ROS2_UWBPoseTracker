@@ -1,0 +1,9 @@
+source;share/decawave_pose_tracker/hook/pythonpath.ps1
+source;share/decawave_pose_tracker/hook/pythonpath.dsv
+source;share/decawave_pose_tracker/hook/pythonpath.sh
+source;share/decawave_pose_tracker/hook/ament_prefix_path.ps1
+source;share/decawave_pose_tracker/hook/ament_prefix_path.dsv
+source;share/decawave_pose_tracker/hook/ament_prefix_path.sh
+source;../../build/decawave_pose_tracker/share/decawave_pose_tracker/hook/pythonpath_develop.ps1
+source;../../build/decawave_pose_tracker/share/decawave_pose_tracker/hook/pythonpath_develop.dsv
+source;../../build/decawave_pose_tracker/share/decawave_pose_tracker/hook/pythonpath_develop.sh

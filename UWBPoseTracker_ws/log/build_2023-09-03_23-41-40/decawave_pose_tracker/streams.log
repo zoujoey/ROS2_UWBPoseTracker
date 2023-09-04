@@ -1,0 +1,11 @@
+[0.379s] Invoking command in '/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker': PYTHONPATH=/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/prefix_override:/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build --no-deps install_data
+[0.505s] /home/asrl/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.505s]   warnings.warn(
+[0.536s] running develop
+[0.619s] running egg_info
+[0.621s] writing manifest file 'decawave_pose_tracker.egg-info/SOURCES.txt'
+[0.641s] running build_ext
+[0.642s] running install_data
+[0.642s] copying package.xml -> /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/decawave_pose_tracker
+[0.642s] creating /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/share/decawave_pose_tracker/launch
+[0.658s] Invoked command in '/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker' returned '0': PYTHONPATH=/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/prefix_override:/home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/install/decawave_pose_tracker/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/asrl/ROS2_UWBPoseTracker/UWBPoseTracker_ws/build/decawave_pose_tracker/build --no-deps install_data

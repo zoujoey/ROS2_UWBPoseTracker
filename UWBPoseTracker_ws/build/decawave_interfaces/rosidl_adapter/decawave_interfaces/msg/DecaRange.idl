@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from decawave_interfaces/msg/DecaRange.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module decawave_interfaces {
+  module msg {
+    struct DecaRange {
+      std_msgs::msg::Header header;
+
+      string tag_id;
+
+      string anch_id1;
+
+      float range1;
+
+      string anch_id2;
+
+      float range2;
+
+      string anch_id3;
+
+      float range3;
+
+      string anch_id4;
+
+      float range4;
+    };
+  };
+};
