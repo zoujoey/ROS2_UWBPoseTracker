@@ -72,3 +72,6 @@ To use the ROS2_UWBPoseTracker package, follow these steps:
    - The node will listen to the UWB data stream and publish relevant information to the `/Wifi/Channel_Three` topic.
 
 These nodes enable user to track and visualize UWB device positions and distances to anchors in real-time. user can use the published data for various localization and tracking applications within userr ROS2 environment.
+## Contributors/Credits
+
+The ROS2_ViconDroneCtrl package is developed by Joey Zou with support from ASRL (Autonomous Space Robotics Laboratory)
