@@ -57,7 +57,8 @@ To use the ROS2_UWBPoseTracker package, follow these steps:
 
 1. **Follow the MDEK Quickstart Guide**:
    - Refer to the provided PDF file in the repository for detailed instructions on setting up the MDEK1001 for UWB tracking.
-   - Connect the UWB device to user's computer via USB.
+   - Once confirmed that a UWB tag is being tracked by 4 UWB anchors on the android, set a 6th UWB device to a passive anchor using the android
+   - Connect this device to the user's computer via USB.
 
 2. **Open a Serial Terminal**:
    - Use a serial terminal program (e.g., minicom) to connect to the UWB device.
