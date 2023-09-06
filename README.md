@@ -70,6 +70,9 @@ To use the ROS2_UWBPoseTracker package, follow these steps:
 
 4. **Run the ROS2 Node**:
    - Run the selected ROS2 node on the respective device.
+   ```
+   ros2 run decawave_pose_tracker <node name>
+   ```
    - The node will listen to the UWB data stream and publish relevant information to the `/Wifi/Channel_Three` topic.
 
 These nodes enable user to track and visualize UWB device positions and distances to anchors in real-time. user can use the published data for various localization and tracking applications within userr ROS2 environment.
