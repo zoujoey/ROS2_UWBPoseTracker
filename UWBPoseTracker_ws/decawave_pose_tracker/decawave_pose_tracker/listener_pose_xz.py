@@ -39,17 +39,13 @@ class publishernode(Node):
             self.resp = resp
             if len(resp)>35:
                 return dummy
-            elif len(resp)<20:
+            elif len(resp)<25:
                 return dummy
             return resp
         except:
             return dummy
         
     def parse_data(self, s):
-        if len(s)>35:
-            return None
-        elif len(s)<25:
-            return None
         substrings = s.split(',')
         self.get_logger().info(str(substrings))
         tag = substrings[2]
@@ -66,6 +62,9 @@ class publishernode(Node):
         self.counter+=1
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.tag_id, msg.x1, msg.y1, msg.z1 = dist[0], dist[1], dist[2], dist[3]
+        if dist[3]>8:
+            dist[3] = 8
+            msg.z1 = 8
         cmd = str(msg.tag_id)+": "+str(msg.x1)+" "+str(msg.y1)+" "+str(msg.z1)
         self.get_logger().info("Data_Published: "+cmd)
         self.decawave_publisher4.publish(msg)

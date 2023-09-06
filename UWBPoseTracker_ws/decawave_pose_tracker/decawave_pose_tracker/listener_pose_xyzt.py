@@ -27,13 +27,14 @@ class publishernode(Node):
         return resp
     
     def get_dist(self): #Getting Distance From Port
-        dummy = 'POS,1,9325,5.54,2.83,0.89,73,x05'
+        #dummy = 'POS,1,9325,0.40,2.03,0.60,73,x05'
+        dummy = 'POS,1,9325,0.00,-0.15,0.60,73,x05'
         try: 
             resp = self.ser.readline().decode().strip()
             self.resp = resp
-            if len(resp)>30:
+            if len(resp)>35:
                 return dummy
-            elif len(resp)<20:
+            elif len(resp)<25:
                 return dummy
             return resp
         except:
@@ -56,6 +57,9 @@ class publishernode(Node):
         self.counter+=1
         msg.header.stamp = self.get_clock().now().to_msg()
         msg.tag_id, msg.x1, msg.y1, msg.z1 = dist[0], dist[1], dist[2], dist[3]
+        if dist[3]>8:
+            dist[3] = 8
+            msg.z1 = 8
         cmd = str(msg.tag_id)+": "+str(msg.x1)+" "+str(msg.y1)+" "+str(msg.z1)
         self.get_logger().info("Data_Published: "+cmd)
         self.decawave_publisher4.publish(msg)
