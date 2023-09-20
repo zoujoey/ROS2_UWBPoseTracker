@@ -61,8 +61,10 @@ To use the ROS2_UWBPoseTracker package, follow these steps:
    - Connect this device to the user's computer via USB.
 
 2. **Open a Serial Terminal**:
-   - Use a serial terminal program (e.g., minicom) to connect to the UWB device.
+   - Use a serial terminal program (e.g., minicom) to connect to the UWB device:
+   ``` sudo minicom -D /dev/ttyACM0 ```
    - Run the `lep` command in the terminal.
+   - Press enter twice, once `dwm>` shows up, enter lep.  
    - User should see a stream of data messages. If so, close the terminal while the data stream is running.
 
 3. **Choose the Appropriate ROS2 Node**:
